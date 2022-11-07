@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+    <title>PokeAPI</title>
+  </head>
+  <body>
+
+    <main class="container">
+        <h1>PokeAPI</h1>
+
+        <label>
+            <input required id="pokemon" name="pokemon" type="text" placeholder="nombre del pokemon">
+            <small>Ejem. pikachu</small>
+        </label>
+        <button id="buscar" name="buscar" type="submit">Buscar</button> 
+
+        <main>
+            <img id="imgPoke" src="">
+            <h4 id="nombrePoke"></h4>
+            <div id="infoPoke"></div>
+
+            <!--div id="typePoke"></!--div-->
+
+        </main>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+
+  </body>
+</html>
